@@ -1,4 +1,4 @@
-window onload = function(){   
+window.onload = function(){   
 body = document.getElementsByTagName('body');
     tl1 = new TimelineMax();
     
