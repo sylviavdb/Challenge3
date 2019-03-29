@@ -7,14 +7,13 @@ $.getJSON(
 	var icon = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
 	var temp = Math.floor(data.main.temp);
 	var weather = data.weather[0].main;
-    body = document.getElementsByTagName('body'),
-    tl1 = new TimelineMax();
+
 
 	$(".icon").attr("src", icon);
 	$(".weather").append(weather);
 	$(".temp").append(temp);
 
-	tl1.set(body, {backgroundImage: "url('img/day.jpg')"}); 
+	
 
 }
 
