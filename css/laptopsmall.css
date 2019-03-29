@@ -1,0 +1,26 @@
+@media only screen and (min-width: 800px) and (max-width: 1099px){
+	 h1{
+	 	font-size: 35px;
+	 	margin: 20px;
+	 }
+
+	 p {
+	 	font-size: 25px;
+	 }
+
+	 .description, .combine, .maker{
+		font-size: 20px;
+	}
+
+	.description{
+		padding: 15px 50px 15px 50px;
+	}
+
+		.name{
+		margin: 20px; 
+	}
+
+	h3 {
+		font-size: 22px;
+	}
+}

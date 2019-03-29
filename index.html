@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What's there when you land?</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/phone.main.css">
+	<link rel="stylesheet" type="text/css" href="css/tablet.css">
+	<link rel="stylesheet" type="text/css" href="css/laptopsmall.css">
+	<link rel="stylesheet" type="text/css" href="css/xlarge.css">
+
+	<!-- JS -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>
+	<script type="text/javascript" src="js/weatherAPI.js"></script>
+	<script type="text/javascript" src="js/activityAPI.js"></script>
+	<script type="text/javascript" src="js/adviceAPI.js"></script>
+	<script type="text/javascript" src="js/randombeersAPI.js"></script>
+
+</head>
+<body>
+	    <div class="header"><h1>SpaceX</h1></div>
+	<div class="main">
+		<div class="weather-container">
+			<h1>Today's weather in The Hague:</h1>
+			<img class="icon">
+			<p class="weather">Weather: </p>
+			<p class="temp">Temp (&#8451;): </p>
+
+		</div>
+		<div class="activity-container">
+			<h1>Things you can do:</h1>
+			<p class="activity"></p>
+			<h3 class="quote">Your supporting quote:</h3>
+			<p class="advice"></p>
+		</div>
+		<div class="beers-container">
+			<h1>The best beer to drink with:</h1>
+			<p class="name"></p>
+			<p class="maker">By: </p>
+			<p class="about"></p>
+			<p class="description">About the beer:<br></p>
+			<h3>The best food to combine with:</h3>
+			<p class="combine"></p>
+		</div>
+	</div>
+
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	     <script type="text/javascript" src="js/stagger.js"></script>
+</body>
+</html>

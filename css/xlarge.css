@@ -1,0 +1,30 @@
+@media only screen and (min-width: 1100px){
+	h1{
+		font-size: 40px;
+		margin-top: 15px;
+	}
+
+	p {
+		font-size: 25px;
+	}
+
+	.description{
+		padding:15px 100px 15px 100px;
+	}
+
+	.name{
+		margin: 20px; 
+	}
+
+	.description, .combine, .maker{
+		font-size: 25px;
+	}
+
+/*	.advice h3{
+		margin-top: 20px;
+	}
+*/
+	h3 {
+		font-size: 35px;
+	}
+}

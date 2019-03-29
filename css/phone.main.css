@@ -1,0 +1,111 @@
+
+*{ 
+	/*background-color: brown;*/
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    /*background-color: black;*/
+    color: white;
+}
+
+/*body{
+	height: auto;
+    background-image: url('../img/bulbbackground.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}*/
+.header{
+	background-color: black;
+	color: white;
+}
+
+h1{
+	font-size: 25px;
+	margin: 5px;
+}
+
+h3{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.weather-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5px;
+	border: black solid 1px;
+	margin: 5px;
+	height: 300px;
+	background: grey;
+	opacity: 0.7; 
+}
+
+.weather-container img{
+	width: 100px;
+	height: 100px;
+	align-self: center;
+}
+
+.weather, .temp, .activity{
+	margin: 10px;
+}
+
+.activity-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: black solid 1px;
+	margin: 5px;
+	padding: 5px;
+	height: 300px;
+	background: grey;
+	opacity: 0.7; 
+}
+
+.advice, .quote{
+	font-size: 15px;
+	font-style: italic;
+}
+
+.beers-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: black solid 1px;
+	margin: 5px;
+	padding: 5px;
+	max-height: 100%;
+	background: grey;
+	opacity: 0.7; 
+}
+
+.name{
+	font-style: italic;
+	text-decoration-line: underline;
+	margin: 10px 10px 0px 10px;
+
+}
+
+.maker{
+	font-size: 15px;
+	
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.description, .combine{
+	margin: 10px;
+	font-size: 15px;
+}
+
+.beers-container h3{
+	margin-top: 20px;
+}
+
